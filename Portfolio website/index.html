@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeBron James | UI/UX Designer & Creative Visionary Portfolio</title>
+  <meta name="description" content="Portfolio of LeBron James - UI/UX Designer, Creative Director & Cultural Visionary featuring interactive dark purple trail effects and bespoke design showcase.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cosmic Ambient Dark Purple & Black Nebula Background Layer (Like a Galaxy but sleek & modern) -->
+  <div class="bg-glow-layer" aria-hidden="true">
+    <div class="cosmic-nebula nebula-1"></div>
+    <div class="cosmic-nebula nebula-2"></div>
+    <div class="cosmic-nebula nebula-3"></div>
+    <div class="cosmic-nebula nebula-drift"></div>
+  </div>
+
+  <!-- Device frame / Outer Container inspired by reference screenshot -->
+  <div class="site-wrapper">
+    <div class="portfolio-screen">
+      <!-- Top Navigation Header -->
+      <header class="navbar" id="mainNavbar">
+        <a href="#home" class="brand-logo" id="brandLogo" aria-label="KING Logo">
+          <span class="logo-crown">👑</span>
+          <span class="logo-text">KING</span>
+        </a>
+
+        <!-- Equal-width clickable navigation tabs -->
+        <nav class="nav-tabs-container" id="navTabsContainer" role="tablist">
+          <button class="nav-tab active" data-tab="home" id="tab-btn-home" role="tab" aria-selected="true" aria-controls="panel-home">
+            <span class="tab-label">Home</span>
+            <span class="tab-indicator"></span>
+          </button>
+          <button class="nav-tab" data-tab="services" id="tab-btn-services" role="tab" aria-selected="false" aria-controls="panel-services">
+            <span class="tab-label">Services</span>
+            <span class="tab-indicator"></span>
+          </button>
+          <button class="nav-tab" data-tab="about" id="tab-btn-about" role="tab" aria-selected="false" aria-controls="panel-about">
+            <span class="tab-label">About me</span>
+            <span class="tab-indicator"></span>
+          </button>
+          <button class="nav-tab" data-tab="portfolio" id="tab-btn-portfolio" role="tab" aria-selected="false" aria-controls="panel-portfolio">
+            <span class="tab-label">Portfolio</span>
+            <span class="tab-indicator"></span>
+          </button>
+          <button class="nav-tab" data-tab="contact" id="tab-btn-contact" role="tab" aria-selected="false" aria-controls="panel-contact">
+            <span class="tab-label">Contact me</span>
+            <span class="tab-indicator"></span>
+          </button>
+        </nav>
+
+        <!-- Right CTA Button -->
+        <div class="nav-cta-wrapper">
+          <button class="btn-hire" id="navHireBtn">Hire Me</button>
+        </div>
+      </header>
+
+      <!-- Main Content Area with dynamic Tab Panels -->
+      <main class="main-content">
+        
+        <!-- ==================== HOME TAB ==================== -->
+        <section class="tab-panel active" id="panel-home" role="tabpanel" aria-labelledby="tab-btn-home">
+          <div class="hero-grid">
+            
+            <!-- Left Hero Content -->
+            <div class="hero-left">
+              <span class="hero-greeting">Hi I am</span>
+              <h1 class="hero-name" id="heroName">
+                LeBron James
+                <span class="aka-tag" title="UI/UX Pioneer & Legend">Mahmood Fazile Edition</span>
+              </h1>
+              
+              <h2 class="hero-role">UI/UX designer</h2>
+              
+              <!-- Social Icons -->
+              <div class="social-links" aria-label="Social media links">
+                <!-- Instagram -->
+                <a href="https://instagram.com/kingjames" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+
+                <!-- Dribbble / Basketball Ball Icon -->
+                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Dribbble">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+                    <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+                    <path d="M8.5 2.5c3.5 4.5 5 10 5.5 19"></path>
+                  </svg>
+                </a>
+
+                <!-- Behance -->
+                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Behance">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M8.2 12.5c1.4 0 2.4-.7 2.4-2.1 0-1.2-.8-1.9-2.1-1.9H3v4h5.2zm.4 5.5c1.7 0 2.8-.8 2.8-2.4 0-1.4-1-2.2-2.7-2.2H3v4.6h5.6zM0 6h8.7c3.1 0 5 1.5 5 3.7 0 1.5-.8 2.6-2 3.2 1.6.6 2.6 1.9 2.6 3.8 0 2.8-2.1 4.7-5.8 4.7H0V6zm19.8 4.3c-2.7 0-4.6 1.8-4.6 4.7 0 3 1.9 4.8 4.7 4.8 2 0 3.6-1.1 4.2-2.7h-2.3c-.4.6-1.1 1-1.9 1-1.4 0-2.3-.9-2.4-2.3h6.8c.1-.4.1-.7.1-1.1 0-2.6-1.8-4.4-4.6-4.4zm-2.3 3.6c.2-1.2 1-2 2.2-2 1.1 0 1.9.8 2.1 2h-4.3zM16.5 8h6.4V6.8h-6.4V8z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="cta-group">
+                <button class="btn-hire" id="heroHireBtn">Hire Me</button>
+                <button class="btn-cv" id="downloadCvBtn">
+                  <span>Download CV</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Stats Cards matching reference screenshot -->
+              <div class="stats-row">
+                <div class="stat-card">
+                  <span class="stat-number">5+</span>
+                  <span class="stat-title">Experiences</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">20+</span>
+                  <span class="stat-title">Project done</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">80+</span>
+                  <span class="stat-title">Happy Clients</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right Hero Visual: LeBron James in Circular Frame -->
+            <div class="hero-right">
+              <div class="portrait-container">
+                <div class="circle-backdrop"></div>
+                <div class="circle-halo-glow"></div>
+                <div class="circle-ring-border"></div>
+                
+                <div class="portrait-frame">
+                  <img src="assets/lebron_hero.jpg" alt="LeBron James UI/UX Designer & Creative Visionary" id="heroPortraitImg" class="portrait-image active">
+                  <img src="assets/lebron_magazine.jpg" alt="LeBron James Legacy Portrait" id="altPortraitImg" class="portrait-image alt">
+                </div>
+
+                <!-- Floating interactive badge to toggle portraits -->
+                <button class="portrait-toggle-badge" id="togglePortraitBtn" title="Switch LeBron James Pose">
+                  <span class="badge-dot"></span>
+                  <span class="badge-text" id="togglePoseText">The King • Executive Mode</span>
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+                  </svg>
+                </button>
+
+                <!-- Floating Experience Tag -->
+                <div class="floating-pill-tag">
+                  <span class="tag-icon">👑</span>
+                  <span class="tag-info"><strong>Strive For Greatness</strong> • Akron to the World</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==================== SERVICES TAB ==================== -->
+        <section class="tab-panel" id="panel-services" role="tabpanel" aria-labelledby="tab-btn-services">
+          <div class="section-header">
+            <span class="section-tag">What I Offer</span>
+            <h2 class="section-title">Design & Visionary Services</h2>
+            <p class="section-subtitle">Combining championship-caliber discipline with world-class digital product design.</p>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="service-card-title">UI/UX Interface Design</h3>
+              <p class="service-card-desc">Sleek, immersive digital experiences crafted for high conversions, effortless navigation, and intuitive user delight.</p>
+              <ul class="service-features">
+                <li>Design Systems & Component Libraries</li>
+                <li>Interactive Wireframing & Prototyping</li>
+                <li>Micro-animations & Fluid Micro-interactions</li>
+              </ul>
+            </div>
+
+            <div class="service-card highlighted">
+              <div class="service-badge">Flagship</div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Brand Architecture & Strategy</h3>
+              <p class="service-card-desc">Building iconic, legendary brands that dominate culture, inspire millions, and withstand the test of time.</p>
+              <ul class="service-features">
+                <li>Visual Identity & Brand Typography</li>
+                <li>Cultural Positioning & Narrative</li>
+                <li>Multi-platform Brand Guidelines</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Media & Creative Direction</h3>
+              <p class="service-card-desc">From SpringHill Entertainment to digital interactive campaigns, orchestrating cutting-edge storytelling that captivates audiences.</p>
+              <ul class="service-features">
+                <li>Creative Direction & Visual Storytelling</li>
+                <li>Digital Content & Motion Art</li>
+                <li>High-impact Campaign Concepts</li>
+              </ul>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Philanthropy & Civic Tech</h3>
+              <p class="service-card-desc">Empowering education and community initiatives through digital platforms, inspired by the I PROMISE School philosophy.</p>
+              <ul class="service-features">
+                <li>Educational Tech Product Design</li>
+                <li>Community Engagement Portals</li>
+                <li>Non-profit Digital Transformation</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== ABOUT ME TAB ==================== -->
+        <section class="tab-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-btn-about">
+          <div class="about-container">
+            <div class="about-hero">
+              <div class="about-image-card">
+                <img src="assets/lebron_magazine.jpg" alt="LeBron James Legacy" class="about-img">
+                <div class="quote-badge">
+                  <p class="quote-text">“Nothing is given. Everything is earned. You work for what you have.”</p>
+                  <span class="quote-author">— LeBron James</span>
+                </div>
+              </div>
+
+              <div class="about-bio">
+                <span class="section-tag">Biography</span>
+                <h2 class="section-title">Architect of Greatness</h2>
+                <p class="bio-lead">
+                  Bridging the worlds of elite performance, design innovation, and cultural entrepreneurship. Whether on the hardwood or in the design studio, the standard remains identical: flawless execution and relentless passion.
+                </p>
+                <p class="bio-text">
+                  With over two decades of defining global sports, lifestyle branding, and digital media, LeBron James brings an uncompromising eye for aesthetic balance, typography, and human-centered design systems.
+                </p>
+
+                <div class="skills-section">
+                  <h3 class="skills-heading">Core Competencies & Stack</h3>
+                  <div class="skill-tags">
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Creative Direction</span>
+                    <span class="skill-tag">Design Systems</span>
+                    <span class="skill-tag">Figma & Prototyping</span>
+                    <span class="skill-tag">Brand Strategy</span>
+                    <span class="skill-tag">Motion & Interactive Web</span>
+                    <span class="skill-tag">Media Production</span>
+                    <span class="skill-tag">High-Performance Leadership</span>
+                  </div>
+                </div>
+
+                <div class="achievements-strip">
+                  <div class="achievement-item">
+                    <span class="achieve-val">4x</span>
+                    <span class="achieve-lbl">NBA Champion</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="achieve-val">4x</span>
+                    <span class="achieve-lbl">Finals MVP</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="achieve-val">#1</span>
+                    <span class="achieve-lbl">All-Time Scorer</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="achieve-val">100M+</span>
+                    <span class="achieve-lbl">Global Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== PORTFOLIO TAB ==================== -->
+        <section class="tab-panel" id="panel-portfolio" role="tabpanel" aria-labelledby="tab-btn-portfolio">
+          <div class="section-header">
+            <span class="section-tag">Curated Works</span>
+            <h2 class="section-title">Featured Projects & Ventures</h2>
+            <p class="section-subtitle">Explore a selection of signature design concepts, entertainment franchises, and digital experiences.</p>
+          </div>
+
+          <!-- Filter categories -->
+          <div class="portfolio-filter-bar">
+            <button class="filter-btn active" data-filter="all">All Works</button>
+            <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+            <button class="filter-btn" data-filter="media">Media & Film</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+          </div>
+
+          <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="uiux">
+              <div class="project-thumb-wrapper">
+                <div class="project-gradient-backdrop thumb-1"></div>
+                <div class="project-overlay">
+                  <span class="view-project-btn">Explore Case Study</span>
+                </div>
+                <span class="project-category-badge">UI/UX Design</span>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">The King's OS — Performance Dashboard</h3>
+                <p class="project-desc">A biometric-driven UI/UX dashboard for elite athletes tracking sleep, recovery metrics, and cognitive load.</p>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-category="media">
+              <div class="project-thumb-wrapper">
+                <div class="project-gradient-backdrop thumb-2"></div>
+                <div class="project-overlay">
+                  <span class="view-project-btn">Explore Case Study</span>
+                </div>
+                <span class="project-category-badge">Media & Entertainment</span>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">SpringHill Interactive Streaming Hub</h3>
+                <p class="project-desc">Empowering creators with a dynamic video streaming platform with customizable watch parties and micro-donations.</p>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-category="branding">
+              <div class="project-thumb-wrapper">
+                <div class="project-gradient-backdrop thumb-3"></div>
+                <div class="project-overlay">
+                  <span class="view-project-btn">Explore Case Study</span>
+                </div>
+                <span class="project-category-badge">Branding & Apparel</span>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">LeBron Signature XX Digital Experience</h3>
+                <p class="project-desc">3D WebGL product customizer and launch campaign landing page for the Nike LeBron XX sneaker line.</p>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-category="uiux">
+              <div class="project-thumb-wrapper">
+                <div class="project-gradient-backdrop thumb-4"></div>
+                <div class="project-overlay">
+                  <span class="view-project-btn">Explore Case Study</span>
+                </div>
+                <span class="project-category-badge">Civic UI/UX</span>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">I PROMISE Student Portal</h3>
+                <p class="project-desc">Gamified learning interface designed for elementary students in Akron, boosting attendance and academic milestones.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== CONTACT ME TAB ==================== -->
+        <section class="tab-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-btn-contact">
+          <div class="section-header">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Start a Collaboration</h2>
+            <p class="section-subtitle">Ready to create something legendary? Reach out for design commissions, creative direction, or speaking engagements.</p>
+          </div>
+
+          <div class="contact-layout">
+            <!-- Left Contact Info -->
+            <div class="contact-info-col">
+              <div class="contact-detail-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Direct Inquiries</span>
+                  <span class="detail-value">kingjames@portfolio.design</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Base Location</span>
+                  <span class="detail-value">Los Angeles, CA / Akron, OH</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-card">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Response Time</span>
+                  <span class="detail-value">Within 24 Hours • High Availability</span>
+                </div>
+              </div>
+
+              <!-- Quick Quote Box -->
+              <div class="contact-quote-box">
+                <p>“You have to be able to accept failure to get better.”</p>
+                <span>— Strive For Greatness</span>
+              </div>
+            </div>
+
+            <!-- Right Contact Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactName">Your Name</label>
+                    <input type="text" id="contactName" placeholder="e.g. Stephen Curry" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">Your Email</label>
+                    <input type="email" id="contactEmail" placeholder="stephen@goldenstate.com" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactService">Service Required</label>
+                  <select id="contactService">
+                    <option value="uiux">UI/UX & Product Design</option>
+                    <option value="branding">Brand Architecture & Strategy</option>
+                    <option value="direction">Creative Direction & Production</option>
+                    <option value="advisory">Advisory & Keynote Speaking</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage">Project Details</label>
+                  <textarea id="contactMessage" rows="4" placeholder="Tell me about your vision, goals, and timeline..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-hire btn-submit" id="submitContactBtn">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Modal for "Hire Me" button -->
+  <div class="modal-backdrop" id="hireModal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="closeHireModal" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="section-tag">Work Together</span>
+        <h3 id="modalTitle" class="modal-title">Commission LeBron James</h3>
+        <p class="modal-subtitle">Ready to elevate your digital product with championship-level design?</p>
+      </div>
+      <form class="modal-form" id="quickHireForm">
+        <div class="form-group">
+          <label for="quickName">Your Name</label>
+          <input type="text" id="quickName" placeholder="Full name or company" required>
+        </div>
+        <div class="form-group">
+          <label for="quickEmail">Work Email</label>
+          <input type="email" id="quickEmail" placeholder="you@company.com" required>
+        </div>
+        <div class="form-group">
+          <label for="quickScope">Project Scope & Budget</label>
+          <input type="text" id="quickScope" placeholder="$10,000+ • UI/UX Redesign" required>
+        </div>
+        <button type="submit" class="btn-hire full-width">Submit Proposal</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
